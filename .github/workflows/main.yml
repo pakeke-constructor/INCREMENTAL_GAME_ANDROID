@@ -47,7 +47,7 @@ jobs:
     - name: Artifact AAB
       uses: actions/upload-artifact@v6
       with:
-        name: apks-${{ matrix.build_type }}
+        name: aabs-${{ matrix.build_type }}
         path: app/build/outputs/bundle
         if-no-files-found: error
 
