@@ -54,5 +54,5 @@ jobs:
     - name: Artifact Debug Synbols
       uses: actions/upload-artifact@v6
       with:
-        name: apks-${{ matrix.build_type }}
+        name: debugsym-${{ matrix.build_type }}
         path: app/build/outputs/native-debug-symbols
