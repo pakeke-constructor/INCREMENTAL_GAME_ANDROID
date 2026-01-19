@@ -165,6 +165,9 @@ android {
             ]
         }
     }
+    aaptOptions {
+        ignoreAssetsPattern '!*.bat:!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~:!<dir>.github:!<dir>_notes:!<dir>build:!<dir>tooling'
+    }
 }
 
 dependencies {
